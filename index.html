@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="custom.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <h1>:: ToDo List ::</h1>
+        </div>
+
+        <div class="add-task">
+            <input id="new-task-input" type="text" placeholder="Add a Task here...">
+
+            <button class="add-task-btn">+</button>
+        </div>
+
+        <div class="task-list-header">
+            <h2>:Tasks:</h2>
+
+            <button class="remove-task-btn">Clear Selected</button>
+        </div>
+
+        <div class="task-list-wrapper">
+            <ul class="task-list">
+
+            </ul>
+        </div>
+
+        
+        <div class="deleted-header">
+            <h3>-Deleted Tasks-</h3>
+
+            <button class="history-btn">Show History</button>
+            <button class="restore-btn">Restore Task</button>
+        </div>
+
+        <div class="deleted-task-list-wrapper">
+            <ul class="deleted-task-list">
+                
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p>&#169; 04xRaynal</p>
+        </div>
+    </div>
+
+
+    <template id="task-template">
+        <li class="task">
+            <input type="checkbox" class="task-input">
+            <label class="task-label">
+                <!-- &#10004; is heavy check mark -->
+                <span class="check-mark">&#10004;</span>
+                <span class="custom-checkbox"></span>
+            </label>
+        </li>
+    </template>
+
+    <template id="delete-task-template">
+        <li class="delete-task">
+            <input type="checkbox" class="delete-input">
+            <label class="delete-label">
+                <!-- &#10004; is heavy check mark -->
+                <span class="check-mark">&#10004;</span>
+                <span class="custom-checkbox"></span>
+            </label>
+        </li>
+    </template>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
