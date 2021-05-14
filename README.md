@@ -15,6 +15,6 @@ The cleared tasks can be viewed in the task history, which can be invoked via pr
 All the deleted tasks are shown in a list format.\
 The user can select and restore the deleted tasks back onto the main list.
 
-![Capture_ToDoList_DeletedTask](https://github.com/04xRaynal/ToDo_List_JavaScript/blob/d76d60edf2415d5e32693898eb6ce2d4b09ed51e/Captured%20Images/Capture_ToDoList_DeletedTask.PNG);
+![Capture_ToDoList_DeletedTask](https://github.com/04xRaynal/ToDo_List_JavaScript/blob/d76d60edf2415d5e32693898eb6ce2d4b09ed51e/Captured%20Images/Capture_ToDoList_DeletedTask.PNG)
 
 ---
