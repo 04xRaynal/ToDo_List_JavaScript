@@ -1,6 +1,11 @@
 # ToDo List
 ***
+
 ## A simple ToDo List Web App created using HTML, CSS and JavaScript.
+
+---
+
+### It displays tasks as a list and enables user to add, delete and restore these tasks.
 
 ---
 
@@ -15,6 +20,6 @@ The cleared tasks can be viewed in the task history, which can be invoked via pr
 All the deleted tasks are shown in a list format.\
 The user can select and restore the deleted tasks back onto the main list.
 
-![Capture_ToDoList_DeletedTask](Captured Images/Capture_ToDoList_DeletedTask.PNG)
+![Capture_ToDoList_DeletedTask](https://github.com/04xRaynal/ToDo_List_JavaScript/blob/ee4bd4d7a729bd1014b609a21abb4f2c72da8fa7/Captured%20Images/Capture_ToDoList_DeleteRestoreTask.PNG)
 
 ---
