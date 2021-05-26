@@ -7,6 +7,8 @@
 
 ### It displays tasks as a list and enables user to add, delete and restore these tasks.
 
+Project Demo: [ToDo List](https://replit.com/@MajinVegetaSSJ2/ToDo-List?v=1)
+
 ---
 
 The user can add tasks using the text imput at the top.\
